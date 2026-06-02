@@ -97,6 +97,7 @@ export default function Hero() {
             { label: "GitHub", href: "https://github.com/stanslausmuuo-spec", icon: ICONS.github },
             { label: "LinkedIn", href: "https://linkedin.com/", icon: ICONS.linkedin },
             { label: "Instagram", href: "https://instagram.com/", icon: ICONS.instagram },
+            { label: "WhatsApp", href: "https://wa.me/254769673300", icon: ICONS.whatsapp },
           ].map((s) => (
             <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer" aria-label={s.label}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
