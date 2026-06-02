@@ -95,8 +95,8 @@ export default function Hero() {
         >
           {[
             { label: "GitHub", href: "https://github.com/stanslausmuuo-spec", icon: ICONS.github },
-            { label: "LinkedIn", href: "https://linkedin.com/", icon: ICONS.linkedin },
-            { label: "Instagram", href: "https://instagram.com/", icon: ICONS.instagram },
+            { label: "LinkedIn", href: "https://www.linkedin.com/in/stanslaus-muuo-119218383", icon: ICONS.linkedin },
+            { label: "Instagram", href: "https://www.instagram.com/brixa_tech?igsh=cWoyeTAzeHoyNjhn", icon: ICONS.instagram },
             { label: "WhatsApp", href: "https://wa.me/254769673300", icon: ICONS.whatsapp },
           ].map((s) => (
             <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer" aria-label={s.label}>
