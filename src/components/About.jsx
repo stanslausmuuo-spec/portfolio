@@ -22,7 +22,7 @@ export default function About() {
           <div className="about-text">
             <p>
               I&apos;m a software engineer with 5+ years of experience building
-              production-grade applications. My expertise spans full-stack
+              production-grade applications. My expertise spans full stack web
               development, cloud infrastructure, and system architecture.
             </p>
             <p>

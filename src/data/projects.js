@@ -15,9 +15,9 @@ export const projects = [
   {
     id: 2,
     title: "futuregen",
-    tagline: "Full-stack web application",
+    tagline: "Full Stack Web Application",
     description:
-      "A full-stack project with a dedicated backend and frontend structure. Built with JavaScript, featuring a modern tech stack for scalable web development.",
+      "A full stack web project with a dedicated backend and frontend structure. Built with JavaScript, featuring a modern tech stack for scalable web development.",
     tech: ["JavaScript", "CSS", "HTML", "Node.js"],
     image: null,
     github: "https://github.com/stanslausmuuo-spec/futuregen",
