@@ -54,11 +54,13 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-snap-type: y proximity;
+  height: 100%;
   font-size: 16px;
 }
 
 body {
+  height: 100%;
+  overflow: hidden;
   font-family: var(--font-sans);
   font-size: 1rem;
   line-height: 1.65;
@@ -67,6 +69,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: background 0.3s, color 0.3s;
+}
+
+main {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y proximity;
+  scroll-behavior: smooth;
 }
 
 #root {

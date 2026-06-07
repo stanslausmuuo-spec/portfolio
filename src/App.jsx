@@ -1,4 +1,4 @@
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, useRef } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
@@ -12,22 +12,24 @@ const Skills = lazy(() => import("./components/Skills"));
 const Contact = lazy(() => import("./components/Contact"));
 
 export default function App() {
+  const mainRef = useRef(null);
+
   return (
     <>
-      <ScrollProgress />
+      <ScrollProgress containerRef={mainRef} />
       <Cursor />
       <ThreeBackground />
-      <Navbar />
-      <main>
+      <Navbar containerRef={mainRef} />
+      <main ref={mainRef}>
         <Suspense fallback={null}>
           <Hero />
           <About />
           <Projects />
           <Skills />
           <Contact />
+          <Footer />
         </Suspense>
       </main>
-      <Footer />
     </>
   );
 }

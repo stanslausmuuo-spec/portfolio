@@ -60,15 +60,17 @@ function Hamburger({ open, onClick }) {
   );
 }
 
-export default function Navbar() {
+export default function Navbar({ containerRef }) {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 50);
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+    const el = containerRef?.current;
+    if (!el) return;
+    const onScroll = () => setScrolled(el.scrollTop > 50);
+    el.addEventListener("scroll", onScroll, { passive: true });
+    return () => el.removeEventListener("scroll", onScroll);
+  }, [containerRef]);
 
   const handleClick = (href) => {
     setOpen(false);
