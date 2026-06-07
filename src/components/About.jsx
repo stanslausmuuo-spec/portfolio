@@ -33,8 +33,8 @@ export default function About() {
             </p>
             <div className="about-stats">
               {[
-                { value: "5+", label: "Years Exp" },
-                { value: "50+", label: "Projects" },
+                { value: "3+", label: "Years Exp" },
+                { value: "20+", label: "Projects" },
                 { value: "30+", label: "Open Source" },
                 { value: "15+", label: "Technologies" },
               ].map((stat) => (

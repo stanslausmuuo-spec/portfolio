@@ -73,9 +73,12 @@ body {
 
 main {
   height: 100vh;
-  overflow-y: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
   scroll-snap-type: y proximity;
   scroll-behavior: smooth;
+  width: 100%;
+  max-width: 100%;
 }
 
 #root {
