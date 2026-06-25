@@ -23,18 +23,18 @@ export default function About() {
             <p>
               I&apos;m a software engineer with experience in crafting scalable, high-performance
               production-grade applications and innovative software solutions. My expertise spans full stack web
-              development, cloud infrastructure, system architecture, and software development.
+              development, DevOps, cloud infrastructure, system architecture, software development and networking.
             </p>
             <p>
               I thrive at the intersection of performance engineering and user
-              experience, writing code that is as maintainable as it is elegant.
+              experience, writing code that is as maintainable and elegant.
               Currently focused on distributed systems, real-time applications,
               and developer tooling.
             </p>
             <div className="about-stats">
               {[
-                { value: "3+", label: "Years Exp" },
-                { value: "20+", label: "Projects" },
+                { value: "2+", label: "Years Exp" },
+                { value: "10+", label: "Credentials" },
                 { value: "30+", label: "Open Source" },
                 { value: "15+", label: "Technologies" },
               ].map((stat) => (

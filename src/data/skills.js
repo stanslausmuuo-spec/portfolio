@@ -2,17 +2,21 @@ export const skillCategories = [
   {
     title: "Frontend",
     skills: [
-      { name: "React / Next.js", level: 95 },
-      { name: "TypeScript", level: 92 },
-      { name: "Three.js / WebGL", level: 80 },
+      { name: "React / Next.js", level: 94 },
+      { name: "JavaScript / ES6+", level: 80 },
+      { name: "Dart", level: 92 },
+      { name: "TypeScript", level: 93 },
+      { name: "Three.js / WebGL", level: 75 },
       { name: "Tailwind CSS", level: 90 },
+      { name: "HTML / CSS", level: 96 },
     ],
   },
   {
     title: "Backend",
     skills: [
       { name: "Node.js / Express", level: 93 },
-      { name: "Python / FastAPI", level: 88 },
+      { name: "Python / FastAPI", level: 92 },
+      { name: "Java", level: 88 },
       { name: "Go", level: 75 },
       { name: "GraphQL", level: 82 },
     ],
