@@ -7,7 +7,6 @@ export const skillCategories = [
       { name: "Dart", level: 92 },
       { name: "TypeScript", level: 93 },
       { name: "Three.js / WebGL", level: 75 },
-      { name: "Tailwind CSS", level: 90 },
       { name: "HTML / CSS", level: 96 },
     ],
   },
@@ -17,8 +16,6 @@ export const skillCategories = [
       { name: "Node.js / Express", level: 93 },
       { name: "Python / FastAPI", level: 92 },
       { name: "Java", level: 88 },
-      { name: "Go", level: 75 },
-      { name: "GraphQL", level: 82 },
     ],
   },
   {

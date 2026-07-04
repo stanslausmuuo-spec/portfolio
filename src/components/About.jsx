@@ -53,7 +53,7 @@ export default function About() {
               <pre><code>{`const engineer = {
   name: "Stanslaus",
   role: "Software Engineer",
-  stack: ["React", "Node.js", "Go", "AWS"],
+  stack: ["React", "Node.js", "JavaScript", "AWS"],
   passion: "Building performant
     & scalable systems",
   motto: "Clean code, 
