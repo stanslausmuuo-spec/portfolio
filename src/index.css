@@ -608,6 +608,7 @@ img {
 }
 
 .stat-value {
+  font-family: var(--font-serif);
   display: block;
   font-size: 1.6rem;
   font-weight: 800;
@@ -840,23 +841,31 @@ img {
 }
 
 .skill-level {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--accent);
-  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-h);
+  font-family: var(--font-serif);
 }
 
 .skill-bar-track {
-  height: 6px;
-  border-radius: 3px;
+  height: 8px;
+  border-radius: 4px;
   background: var(--border);
   overflow: hidden;
 }
 
 .skill-bar-fill {
   height: 100%;
-  border-radius: 3px;
-  background: linear-gradient(90deg, var(--accent), var(--secondary));
+  border-radius: 4px;
+  background: linear-gradient(90deg, #000000, #4b5563);
+}
+
+[data-theme="dark"] .skill-bar-track {
+  background: #252a36;
+}
+
+[data-theme="dark"] .skill-bar-fill {
+  background: linear-gradient(90deg, #ffffff, #A8A9AD);
 }
 
 /* ============================================================
