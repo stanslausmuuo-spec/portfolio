@@ -44,16 +44,16 @@ export default function Hero() {
           <span className="gradient-text"> Stanslaus</span>
         </motion.h1>
 
-        <div className="hero-subtitle-wrap" style={{ position: "relative", height: "1.5em", marginBottom: "1.25rem" }}>
+        <div className="hero-subtitle-wrap" style={{ position: "relative", minHeight: "2.2em", marginBottom: "1.25rem" }}>
           <AnimatePresence mode="wait">
             <motion.p
               className="hero-subtitle"
               key={currentRole}
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.35 }}
-              style={{ position: "absolute" }}
+              exit={{ opacity: 0, y: -15 }}
+              transition={{ duration: 0.3 }}
+              style={{ position: "relative", width: "100%" }}
             >
               <span className="gradient-text">{currentRole}</span>
             </motion.p>
