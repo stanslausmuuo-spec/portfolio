@@ -8,8 +8,8 @@ function generateParticleData(count, isDark) {
   const pos = new Float32Array(count * 3);
   const col = new Float32Array(count * 3);
   const accent = isDark
-    ? { r: 139 / 255, g: 131 / 255, b: 1 }
-    : { r: 108 / 255, g: 99 / 255, b: 1 };
+    ? { r: 176 / 255, g: 190 / 255, b: 197 / 255 }
+    : { r: 27 / 255, g: 38 / 255, b: 59 / 255 };
   for (let i = 0; i < count; i++) {
     const r = 12 + Math.random() * 8;
     const theta = Math.random() * Math.PI * 2;
@@ -85,11 +85,11 @@ function Shapes() {
 
   const shapes = useMemo(
     () => [
-      { pos: [-4, 3, -4], color: isDark ? "#8b83ff" : "#6c63ff", scale: 1.4, speed: 1.2 },
-      { pos: [5, -2, -6], color: isDark ? "#ff85a1" : "#ff6584", scale: 1.0, speed: 0.8 },
-      { pos: [-3, -4, -5], color: isDark ? "#60a5fa" : "#3b82f6", scale: 0.8, speed: 1.5 },
-      { pos: [4, 4, -7], color: isDark ? "#a78bfa" : "#7c3aed", scale: 1.2, speed: 1.0 },
-      { pos: [-5, 0, -8], color: isDark ? "#34d399" : "#10b981", scale: 0.6, speed: 1.8 },
+      { pos: [-4, 3, -4], color: isDark ? "#ffffff" : "#1b263b", scale: 1.4, speed: 1.2 },
+      { pos: [5, -2, -6], color: isDark ? "#B0BEC5" : "#5c677d", scale: 1.0, speed: 0.8 },
+      { pos: [-3, -4, -5], color: isDark ? "#5c677d" : "#B0BEC5", scale: 0.8, speed: 1.5 },
+      { pos: [4, 4, -7], color: isDark ? "#B0BEC5" : "#1b263b", scale: 1.2, speed: 1.0 },
+      { pos: [-5, 0, -8], color: isDark ? "#ffffff" : "#5c677d", scale: 0.6, speed: 1.8 },
     ],
     [isDark],
   );
