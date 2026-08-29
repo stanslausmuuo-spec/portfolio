@@ -6,7 +6,6 @@ export const skillCategories = [
       { name: "JavaScript / ES6+", level: 80 },
       { name: "Dart", level: 92 },
       { name: "TypeScript", level: 93 },
-      { name: "Three.js / WebGL", level: 75 },
       { name: "HTML / CSS", level: 96 },
     ],
   },

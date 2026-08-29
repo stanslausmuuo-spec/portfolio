@@ -18,6 +18,7 @@
   --bg-nav: rgba(255, 255, 255, 0.92);
   --border: #d1d5db;
   --border-hover: #111827;
+  --neon: #0284c7;
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.08);
   --radius: 12px;
@@ -38,6 +39,7 @@
   --bg-nav: rgba(0, 0, 0, 0.92);
   --border: #A8A9AD;
   --border-hover: #ffffff;
+  --neon: #00f0ff;
   --shadow: 0 4px 20px rgba(168, 169, 173, 0.08);
   --shadow-lg: 0 10px 30px rgba(168, 169, 173, 0.12);
 }
@@ -185,7 +187,7 @@ img {
   left: 0;
   right: 0;
   z-index: 100;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
   background: transparent;
   transition: background 0.3s, padding 0.3s, border-color 0.3s;
   border-bottom: 1px solid transparent;
@@ -196,7 +198,7 @@ img {
   backdrop-filter: var(--nav-blur);
   -webkit-backdrop-filter: var(--nav-blur);
   border-bottom-color: var(--border);
-  padding: 0.6rem 0;
+  padding: 0.8rem 0;
 }
 
 .nav-inner {
@@ -228,11 +230,11 @@ img {
 .nav-desktop {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2.5rem;
 }
 
 .nav-desktop a {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 500;
   color: var(--text);
   transition: color 0.2s;
@@ -373,10 +375,8 @@ img {
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, var(--accent), var(--secondary));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--neon);
+  text-shadow: 0 0 12px rgba(0, 240, 255, 0.35);
 }
 
 /* ============================================================
@@ -393,8 +393,8 @@ img {
 .hero-layout {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 3rem;
+  justify-content: space-around;
+  gap: 4rem;
   width: 100%;
 }
 
@@ -589,6 +589,10 @@ img {
 .about-text {
   min-width: 0;
   word-break: break-word;
+}
+
+.about-text p {
+  margin-bottom: 2rem;
 }
 
 .about-visual {
@@ -817,9 +821,10 @@ img {
 }
 
 .skill-category-title {
-  font-size: 1rem;
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
   font-weight: 600;
-  color: var(--text-h);
+  color: var(--neon);
   margin-bottom: 1.25rem;
   padding-bottom: 0.75rem;
   border-bottom: 1px solid var(--border);
@@ -900,7 +905,7 @@ img {
   gap: 0.6rem;
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--text-h);
+  color: var(--neon);
   padding: 0.8rem 1.5rem;
   border-radius: var(--radius-sm);
   background: var(--bg-card);
@@ -910,10 +915,10 @@ img {
 }
 
 .contact-email:hover {
-  border-color: var(--accent);
-  color: var(--accent);
+  border-color: var(--neon);
+  color: var(--neon);
   transform: translateY(-2px);
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.25);
 }
 
 .contact-links {
