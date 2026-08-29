@@ -899,13 +899,12 @@ img {
   margin: 0 auto 2rem;
 }
 
-.contact-email {
+.contact-card {
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--neon);
   padding: 0.8rem 1.5rem;
   border-radius: var(--radius-sm);
   background: var(--bg-card);
@@ -914,11 +913,26 @@ img {
   margin: 0 0.5rem 2.5rem;
 }
 
+.contact-email {
+  color: #ff6b00;
+}
+
 .contact-email:hover {
-  border-color: var(--neon);
-  color: var(--neon);
+  border-color: #ff6b00;
+  color: #ff6b00;
   transform: translateY(-2px);
-  box-shadow: 0 0 20px rgba(0, 240, 255, 0.25);
+  box-shadow: 0 0 25px rgba(255, 107, 0, 0.4);
+}
+
+.contact-whatsapp {
+  color: #00ff66;
+}
+
+.contact-whatsapp:hover {
+  border-color: #00ff66;
+  color: #00ff66;
+  transform: translateY(-2px);
+  box-shadow: 0 0 25px rgba(0, 255, 102, 0.4);
 }
 
 .contact-links {
