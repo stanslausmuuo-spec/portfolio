@@ -28,7 +28,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
         >
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="var(--accent)">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#00ff66" style={{ filter: "drop-shadow(0 0 6px rgba(0, 255, 102, 0.8))" }}>
             <circle cx="12" cy="12" r="10" />
           </svg>
           Available for opportunities
@@ -97,7 +97,7 @@ export default function Hero() {
             { label: "GitHub", href: "https://github.com/stanslausmuuo-spec", icon: ICONS.github },
             { label: "LinkedIn", href: "https://www.linkedin.com/in/stanslaus-muuo-119218383", icon: ICONS.linkedin },
             { label: "Instagram", href: "https://www.instagram.com/brixa_tech?igsh=cWoyeTAzeHoyNjhn", icon: ICONS.instagram },
-            { label: "WhatsApp", href: "https://wa.me/254769673300", icon: ICONS.whatsapp },
+            { label: "WhatsApp", href: "https://wa.me/254741405165", icon: ICONS.whatsapp },
           ].map((s) => (
             <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer" aria-label={s.label}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
