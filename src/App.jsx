@@ -3,9 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import ScrollProgress from "./components/ScrollProgress";
-import Cursor from "./components/Cursor";
 
-const ThreeBackground = lazy(() => import("./components/ThreeBackground"));
 const About = lazy(() => import("./components/About"));
 const Projects = lazy(() => import("./components/Projects"));
 const Skills = lazy(() => import("./components/Skills"));
@@ -17,8 +15,6 @@ export default function App() {
   return (
     <>
       <ScrollProgress containerRef={mainRef} />
-      <Cursor />
-      <ThreeBackground />
       <Navbar containerRef={mainRef} />
       <main ref={mainRef}>
         <Suspense fallback={null}>

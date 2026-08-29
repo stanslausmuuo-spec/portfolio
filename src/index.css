@@ -3,7 +3,7 @@
    ============================================================ */
 :root {
   --font-sans: "Inter", system-ui, -apple-system, sans-serif;
-  --font-serif: "Playfair Display", Georgia, serif;
+  --font-serif: "Lora", Georgia, serif;
   --font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
 
   --accent: #000000;
