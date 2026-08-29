@@ -28,18 +28,18 @@
 [data-theme="dark"] {
   --accent: #ffffff;
   --accent-hover: #e5e7eb;
-  --accent-light: rgba(255, 255, 255, 0.1);
-  --secondary: #9ca3af;
+  --accent-light: rgba(168, 169, 173, 0.15);
+  --secondary: #A8A9AD;
   --text: #e5e7eb;
   --text-h: #ffffff;
-  --text-muted: #9ca3af;
-  --bg: #0a0a0a;
-  --bg-card: #141414;
-  --bg-nav: rgba(10, 10, 10, 0.92);
-  --border: #333333;
+  --text-muted: #A8A9AD;
+  --bg: #000000;
+  --bg-card: #161922;
+  --bg-nav: rgba(0, 0, 0, 0.92);
+  --border: #A8A9AD;
   --border-hover: #ffffff;
-  --shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.8);
+  --shadow: 0 4px 20px rgba(168, 169, 173, 0.08);
+  --shadow-lg: 0 10px 30px rgba(168, 169, 173, 0.12);
 }
 
 /* ============================================================
