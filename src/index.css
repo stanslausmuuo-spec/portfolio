@@ -3,42 +3,43 @@
    ============================================================ */
 :root {
   --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
   --font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
 
-  --accent: #1b263b;
-  --accent-hover: #5c677d;
-  --accent-light: rgba(27, 38, 59, 0.08);
-  --secondary: #5c677d;
-  --text: #5c677d;
-  --text-h: #1b263b;
-  --text-muted: #94a3b8;
+  --accent: #000000;
+  --accent-hover: #374151;
+  --accent-light: rgba(0, 0, 0, 0.05);
+  --secondary: #4b5563;
+  --text: #111827;
+  --text-h: #000000;
+  --text-muted: #374151;
   --bg: #ffffff;
-  --bg-card: #f8f9fa;
-  --bg-nav: rgba(255, 255, 255, 0.88);
-  --border: #B0BEC5;
-  --border-hover: #5c677d;
-  --shadow: 0 1px 3px rgba(27, 38, 59, 0.08), 0 1px 2px rgba(27, 38, 59, 0.06);
-  --shadow-lg: 0 10px 30px rgba(27, 38, 59, 0.1);
+  --bg-card: #f9fafb;
+  --bg-nav: rgba(255, 255, 255, 0.92);
+  --border: #d1d5db;
+  --border-hover: #111827;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.08);
   --radius: 12px;
   --radius-sm: 8px;
   --nav-blur: blur(12px);
 }
 
 [data-theme="dark"] {
-  --accent: #B0BEC5;
-  --accent-hover: #ffffff;
-  --accent-light: rgba(176, 190, 197, 0.15);
-  --secondary: #5c677d;
-  --text: #B0BEC5;
+  --accent: #ffffff;
+  --accent-hover: #e5e7eb;
+  --accent-light: rgba(255, 255, 255, 0.1);
+  --secondary: #9ca3af;
+  --text: #e5e7eb;
   --text-h: #ffffff;
-  --text-muted: #5c677d;
-  --bg: #1b263b;
-  --bg-card: #141c2c;
-  --bg-nav: rgba(27, 38, 59, 0.9);
-  --border: #5c677d;
-  --border-hover: #B0BEC5;
-  --shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.6);
+  --text-muted: #9ca3af;
+  --bg: #0a0a0a;
+  --bg-card: #141414;
+  --bg-nav: rgba(10, 10, 10, 0.92);
+  --border: #333333;
+  --border-hover: #ffffff;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.8);
 }
 
 /* ============================================================
@@ -347,6 +348,7 @@ img {
 }
 
 .section-title {
+  font-family: var(--font-serif);
   font-size: clamp(1.75rem, 4vw, 2.75rem);
   font-weight: 700;
   line-height: 1.2;
@@ -446,6 +448,7 @@ img {
 }
 
 .hero-title {
+  font-family: var(--font-serif);
   font-size: clamp(2.5rem, 7vw, 4.5rem);
   font-weight: 800;
   line-height: 1.05;
@@ -729,7 +732,8 @@ img {
 }
 
 .project-title {
-  font-size: 1.2rem;
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--text-h);
   margin-bottom: 0.3rem;
