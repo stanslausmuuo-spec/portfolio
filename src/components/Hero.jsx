@@ -83,7 +83,7 @@ export default function Hero() {
               <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
             </svg>
           </a>
-          <a href="#contact" className="btn btn-secondary" onClick={(e) => { e.preventDefault(); document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" }); }}>
+          <a href="#contact" className="btn btn-secondary hero-contact-btn" onClick={(e) => { e.preventDefault(); document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" }); }}>
             Get In Touch
           </a>
         </motion.div>
