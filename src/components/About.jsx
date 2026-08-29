@@ -21,15 +21,13 @@ export default function About() {
         <div className="about-grid">
           <div className="about-text">
             <p>
-              I&apos;m a software engineer with experience in crafting scalable, high-performance
-              production-grade applications and innovative software solutions. My expertise spans full stack web
-              development, DevOps, cloud infrastructure, system architecture, software development and networking.
+              Software Engineer with expertise in crafting top-notch, responsive websites that prioritize user experience.
+              Focused on delivering reliable, secure solutions that support business goals.
             </p>
             <p>
-              I thrive at the intersection of performance engineering and user
-              experience, writing code that is as maintainable and elegant.
-              Currently focused on distributed systems, real-time applications,
-              and developer tooling.
+              My expertise spans web development, system architecture, networking, DevOps, cloud infrastructure, UI/UX,
+              cybersecurity, and software development. Full-cycle maestro driving ideas from inception to delivery,
+              ensuring projects are on time and on budget. Your vision? I&apos;m ready to turn it into a blockbuster web reality.
             </p>
             <div className="about-stats">
               {[

@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useScrollReveal, revealVariants } from "../hooks/useScrollReveal";
 import { ICONS } from "../data/icons";
 
-const roles = ["Software Engineer", "Full Stack Web Developer", "System Architect", "DevOps Specialist", "Open Source Contributor"];
+const roles = ["Software Engineer", "Full Stack Web Developer", "System Architect", "DevOps Specialist", "Cloud Practitioner", "UI/UX Specialist", "Open Source Contributor"];
 
 function useRoleCycle(roles, interval = 3000) {
   const [index, setIndex] = useState(0);
@@ -66,8 +66,9 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.7 }}
         >
-          I build high-performance, scalable applications with modern technologies.
-          Passionate about crafting digital experiences that push boundaries.
+          Software Engineer with a knack for building and delivering top-notch solutions; focused on shipping real solutions that work.
+          <br /><br />
+          Hit me up for efficient, reliable, secure, and innovative software solutions.
         </motion.p>
 
         <motion.div
@@ -96,7 +97,7 @@ export default function Hero() {
           {[
             { label: "GitHub", href: "https://github.com/stanslausmuuo-spec", icon: ICONS.github },
             { label: "LinkedIn", href: "https://www.linkedin.com/in/stanslaus-muuo-119218383", icon: ICONS.linkedin },
-            { label: "Instagram", href: "https://www.instagram.com/brixa_tech?igsh=cWoyeTAzeHoyNjhn", icon: ICONS.instagram },
+            { label: "Discord", href: "https://discord.com/users/1543229483778048020", icon: ICONS.discord },
             { label: "WhatsApp", href: "https://wa.me/254741405165", icon: ICONS.whatsapp },
           ].map((s) => (
             <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer" aria-label={s.label}>
