@@ -27,7 +27,10 @@ export default function About() {
             <p>
               My expertise spans web development, system architecture, networking, DevOps, cloud infrastructure, UI/UX,
               cybersecurity, and software development. Full-cycle maestro driving ideas from inception to delivery,
-              ensuring projects are on time and on budget. Your vision? I&apos;m ready to turn it into a blockbuster web reality.
+              ensuring projects are on time and on budget.
+            </p>
+            <p>
+              Your vision? I&apos;m ready to turn it into a blockbuster web reality.
             </p>
             <div className="about-stats">
               {[

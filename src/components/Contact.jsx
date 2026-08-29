@@ -42,7 +42,7 @@ export default function Contact() {
           {[
             { label: "GitHub", href: "https://github.com/stanslausmuuo-spec" },
             { label: "LinkedIn", href: "https://www.linkedin.com/in/stanslaus-muuo-119218383" },
-            { label: "Instagram", href: "https://www.instagram.com/brixa_tech?igsh=cWoyeTAzeHoyNjhn" },
+            { label: "Discord", href: "https://discord.com/users/1543229483778048020" },
             { label: "WhatsApp", href: "https://wa.me/254741405165" },
           ].map((l) => (
             <a key={l.label} href={l.href} target="_blank" rel="noopener noreferrer" referrerPolicy="no-referrer" className="contact-link">

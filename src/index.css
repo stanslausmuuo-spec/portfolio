@@ -200,9 +200,9 @@ img {
 }
 
 .nav-inner {
-  max-width: 1126px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 3rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -318,6 +318,10 @@ img {
 }
 
 @media (max-width: 768px) {
+  .nav-inner {
+    padding: 0 1.25rem;
+  }
+
   .nav-desktop {
     display: none;
   }
@@ -337,9 +341,9 @@ img {
 .section {
   position: relative;
   z-index: 1;
-  max-width: 1126px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 6rem 1.5rem;
+  padding: 6rem 3rem;
   scroll-snap-align: start;
 }
 
@@ -1077,11 +1081,11 @@ img {
   position: relative;
   z-index: 1;
   text-align: center;
-  padding: 2rem 1.5rem;
+  padding: 2rem 3rem;
   border-top: 1px solid var(--border);
   font-size: 0.85rem;
   color: var(--text-muted);
-  max-width: 1126px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
