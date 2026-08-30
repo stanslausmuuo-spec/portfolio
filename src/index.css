@@ -722,7 +722,7 @@ img {
 }
 
 .project-card {
-  padding: 1.75rem;
+  padding: 1.25rem;
   border-radius: var(--radius);
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -732,17 +732,60 @@ img {
 
 .project-image-wrap {
   width: 100%;
-  height: 180px;
+  height: 170px;
   border-radius: var(--radius-sm);
   overflow: hidden;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.85rem;
   border: 1px solid var(--border);
   background: var(--bg);
+  display: flex;
+  flex-direction: column;
+}
+
+.browser-header {
+  height: 26px;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.browser-dots {
+  display: flex;
+  gap: 4px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.dot.red { background: #ff5f56; }
+.dot.yellow { background: #ffbd2e; }
+.dot.green { background: #27c93f; }
+
+.browser-url {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  background: var(--bg);
+  padding: 1px 8px;
+  border-radius: 4px;
+  flex-grow: 1;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid var(--border);
 }
 
 .project-thumbnail {
   width: 100%;
-  height: 100%;
+  height: calc(170px - 26px);
   object-fit: cover;
   transition: transform 0.4s ease;
 }
@@ -760,25 +803,25 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.75rem;
 }
 
 .project-folder svg {
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
 }
 
 .project-links {
   display: flex;
-  gap: 0.75rem;
+  gap: 0.5rem;
 }
 
 .project-links a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
   color: var(--text-muted);
   transition: color 0.2s, background 0.2s;
@@ -791,24 +834,28 @@ img {
 
 .project-title {
   font-family: var(--font-serif);
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 700;
   color: var(--text-h);
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.25rem;
 }
 
 .project-tagline {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--accent);
   font-weight: 500;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .project-desc {
-  font-size: 0.9rem;
-  line-height: 1.6;
+  font-size: 0.85rem;
+  line-height: 1.5;
   color: var(--text);
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .project-tech {

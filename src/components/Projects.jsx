@@ -15,12 +15,22 @@ const ProjectCard = memo(function ProjectCard({ project, onClick }) {
     >
       {project.image && (
         <div className="project-image-wrap">
+          <div className="browser-header">
+            <div className="browser-dots">
+              <span className="dot red"></span>
+              <span className="dot yellow"></span>
+              <span className="dot green"></span>
+            </div>
+            <div className="browser-url">
+              {project.live ? project.live.replace('https://', '') : 'app.local'}
+            </div>
+          </div>
           <img src={project.image} alt={project.title} className="project-thumbnail" loading="lazy" />
         </div>
       )}
       <div className="project-top">
         <div className="project-folder">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d={ICONS.folder} />
           </svg>
         </div>

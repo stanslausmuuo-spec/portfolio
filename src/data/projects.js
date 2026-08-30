@@ -2,18 +2,18 @@ export const projects = [
   {
     id: 1,
     title: "CruiseLinx",
-    tagline: "Premium P2P Car Rental Marketplace & Booking Platform",
+    tagline: "Peer-to-Peer Car Sharing & Rental Marketplace",
     description:
-      "A premium P2P car rental marketplace enabling users to browse, book, and drive verified vehicles with offline-capable, mobile-first architecture and M-Pesa Daraja payment integration.",
+      "A P2P car-sharing marketplace where car owners (hosts) can list their vehicles for rent, and renters can browse, book, and securely pay using M-Pesa Daraja integration.",
     tech: ["TypeScript", "Next.js", "Convex", "Tailwind CSS", "Mapbox GL", "M-Pesa API"],
-    image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=1000&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
     github: "https://github.com/stanslausmuuo-spec/cruiselinx",
     live: "https://cruiselinx.vercel.app",
     gradient: "from-blue-600 to-cyan-500",
     caseStudy: {
-      problem: "Traditional vehicle rental platforms lack integrated local payment gateways like M-Pesa and reliable offline PWA capabilities for remote locations.",
-      solution: "Engineered CruiseLinx using Next.js 16 App Router, TypeScript, Convex real-time backend, and Safaricom M-Pesa Daraja payment gateway integration with secure webhook verification.",
-      impact: "Delivered a lightning-fast, production-grade car rental marketplace with zero-downtime serverless database queries and robust Zod input validation."
+      problem: "Traditional vehicle rental agencies have high overhead and limited peer-to-peer options, while car owners lack a secure platform to monetize their idle vehicles with local payment integration.",
+      solution: "Engineered CruiseLinx as a P2P car-sharing marketplace connecting hosts and renters, built with Next.js 16 App Router, TypeScript, Convex real-time backend, Mapbox GL for vehicle location discovery, and Safaricom M-Pesa Daraja payments.",
+      impact: "Empowered car owners to seamlessly monetize idle vehicles and gave renters a reliable, mobile-first marketplace with instant booking and secure M-Pesa checkout."
     }
   },
   {
@@ -23,7 +23,7 @@ export const projects = [
     description:
       "A privacy-first, voice-enabled personal AI assistant powered by LiveKit WebRTC transport, local Ollama LLMs, Whisper speech-to-text, and Piper text-to-speech services.",
     tech: ["TypeScript", "Next.js", "Python", "LiveKit", "Ollama", "Docker"],
-    image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1000&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1000&auto=format&fit=crop",
     github: "https://github.com/stanslausmuuo-spec/drudge",
     live: "https://jarvisa1.vercel.app",
     gradient: "from-purple-600 to-indigo-500",
@@ -40,7 +40,7 @@ export const projects = [
     description:
       "A production-grade, highly scalable Event Management System featuring high-concurrency ticket sales with Redis distributed locks, live gate check-ins via Socket.io, and PWA offline support.",
     tech: ["JavaScript", "Node.js", "Express", "MongoDB", "Redis", "Socket.io", "React"],
-    image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1000&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000&auto=format&fit=crop",
     github: "https://github.com/stanslausmuuo-spec/EMS",
     live: "https://ems200.vercel.app",
     gradient: "from-emerald-600 to-teal-500",
