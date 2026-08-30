@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#061e1a"/>
+      <stop offset="100%" stop-color="#0f2925"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg3)" rx="12"/>
+  
+  <!-- Sidebar -->
+  <rect x="30" y="30" width="160" height="440" rx="8" fill="#0f2925" opacity="0.8"/>
+  <circle cx="60" cy="65" r="14" fill="#059669"/>
+  <rect x="85" y="57" width="80" height="16" rx="4" fill="#134e4a"/>
+  <rect x="45" y="110" width="130" height="32" rx="6" fill="#059669" opacity="0.3"/>
+  <rect x="45" y="155" width="110" height="20" rx="4" fill="#134e4a" opacity="0.6"/>
+  <rect x="45" y="190" width="120" height="20" rx="4" fill="#134e4a" opacity="0.6"/>
+
+  <!-- Top Metric Cards -->
+  <rect x="210" y="30" width="170" height="85" rx="8" fill="#0f2925" stroke="#134e4a" stroke-width="1"/>
+  <rect x="225" y="45" width="80" height="14" rx="3" fill="#6ee7b7" opacity="0.7"/>
+  <rect x="225" y="70" width="110" height="24" rx="4" fill="#f8fafc" opacity="0.9"/>
+
+  <rect x="395" y="30" width="170" height="85" rx="8" fill="#0f2925" stroke="#134e4a" stroke-width="1"/>
+  <rect x="410" y="45" width="80" height="14" rx="3" fill="#2dd4bf" opacity="0.7"/>
+  <rect x="410" y="70" width="110" height="24" rx="4" fill="#f8fafc" opacity="0.9"/>
+
+  <rect x="580" y="30" width="190" height="85" rx="8" fill="#0f2925" stroke="#134e4a" stroke-width="1"/>
+  <rect x="595" y="45" width="90" height="14" rx="3" fill="#34d399" opacity="0.7"/>
+  <rect x="595" y="70" width="130" height="24" rx="4" fill="url(#accent3)"/>
+
+  <!-- Main Chart Area -->
+  <rect x="210" y="135" width="560" height="335" rx="8" fill="#0f2925" stroke="#134e4a" stroke-width="1"/>
+  <!-- Chart lines & bars -->
+  <path d="M250 400 L320 340 L390 370 L460 280 L530 310 L600 220 L670 190 L730 160" stroke="#14b8a6" stroke-width="3" fill="none"/>
+  <circle cx="460" cy="280" r="6" fill="#059669"/>
+  <circle cx="670" cy="190" r="6" fill="#14b8a6"/>
+
+  <!-- Grid lines -->
+  <line x1="230" y1="200" x2="750" y2="200" stroke="#134e4a" stroke-dasharray="4 4" opacity="0.5"/>
+  <line x1="230" y1="280" x2="750" y2="280" stroke="#134e4a" stroke-dasharray="4 4" opacity="0.5"/>
+  <line x1="230" y1="360" x2="750" y2="360" stroke="#134e4a" stroke-dasharray="4 4" opacity="0.5"/>
+</svg>
