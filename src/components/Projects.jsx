@@ -13,6 +13,11 @@ const ProjectCard = memo(function ProjectCard({ project, onClick }) {
       whileHover={{ y: -6, transition: { duration: 0.3 } }}
       onClick={() => onClick(project)}
     >
+      {project.image && (
+        <div className="project-image-wrap">
+          <img src={project.image} alt={project.title} className="project-thumbnail" loading="lazy" />
+        </div>
+      )}
       <div className="project-top">
         <div className="project-folder">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

@@ -52,6 +52,12 @@ export default function ProjectModal({ project, onClose }) {
               </div>
             </div>
 
+            {project.image && (
+              <div className="modal-image-wrap">
+                <img src={project.image} alt={project.title} className="modal-image" loading="lazy" />
+              </div>
+            )}
+
             <p className="modal-desc">{project.description}</p>
 
             {project.caseStudy && (
