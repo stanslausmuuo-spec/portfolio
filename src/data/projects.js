@@ -6,7 +6,7 @@ export const projects = [
     description:
       "A P2P car-sharing marketplace where car owners (hosts) can list their vehicles for rent, and renters can browse, book, and securely pay using M-Pesa Daraja integration.",
     tech: ["TypeScript", "Next.js", "Convex", "Tailwind CSS", "Mapbox GL", "M-Pesa API"],
-    image: "/cruiselinx.svg",
+    image: "/cruiselinx.png",
     github: "https://github.com/stanslausmuuo-spec/cruiselinx",
     live: "https://cruiselinx.vercel.app",
     gradient: "from-blue-600 to-cyan-500",
@@ -23,7 +23,7 @@ export const projects = [
     description:
       "A privacy-first, voice-enabled personal AI assistant powered by LiveKit WebRTC transport, local Ollama LLMs, Whisper speech-to-text, and Piper text-to-speech services.",
     tech: ["TypeScript", "Next.js", "Python", "LiveKit", "Ollama", "Docker"],
-    image: "/jarvis.svg",
+    image: "/jarvis.png",
     github: "https://github.com/stanslausmuuo-spec/drudge",
     live: "https://jarvisa1.vercel.app",
     gradient: "from-purple-600 to-indigo-500",
@@ -40,7 +40,7 @@ export const projects = [
     description:
       "A production-grade, highly scalable Event Management System featuring high-concurrency ticket sales with Redis distributed locks, live gate check-ins via Socket.io, and PWA offline support.",
     tech: ["JavaScript", "Node.js", "Express", "MongoDB", "Redis", "Socket.io", "React"],
-    image: "/ems.svg",
+    image: "/ems.png",
     github: "https://github.com/stanslausmuuo-spec/EMS",
     live: "https://ems200.vercel.app",
     gradient: "from-emerald-600 to-teal-500",
