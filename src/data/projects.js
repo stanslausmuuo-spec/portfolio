@@ -2,9 +2,9 @@ export const projects = [
   {
     id: 1,
     title: "CruiseLinx",
-    tagline: "Peer-to-Peer Car Sharing & Rental Marketplace",
+    tagline: "Peer-to-Peer Car Rental Marketplace",
     description:
-      "A P2P car-sharing marketplace where car owners (hosts) can list their vehicles for rent, and renters can browse, book, and securely pay using M-Pesa Daraja integration.",
+      "A P2P car rental marketplace where car owners (hosts) can list their vehicles for rent, and renters can browse, book, and securely pay using M-Pesa Daraja integration.",
     tech: ["TypeScript", "Next.js", "Convex", "Tailwind CSS", "Mapbox GL", "M-Pesa API"],
     image: "/cruiselinx.png",
     github: "https://github.com/stanslausmuuo-spec/cruiselinx",
@@ -12,13 +12,13 @@ export const projects = [
     gradient: "from-blue-600 to-cyan-500",
     caseStudy: {
       problem: "Traditional vehicle rental agencies have high overhead and limited peer-to-peer options, while car owners lack a secure platform to monetize their idle vehicles with local payment integration.",
-      solution: "Engineered CruiseLinx as a P2P car-sharing marketplace connecting hosts and renters, built with Next.js 16 App Router, TypeScript, Convex real-time backend, Mapbox GL for vehicle location discovery, and Safaricom M-Pesa Daraja payments.",
+      solution: "CruiseLinx as a P2P car rental marketplace connecting hosts and renters, built with Convex real-time backend, Mapbox GL for vehicle location discovery, and Safaricom M-Pesa Daraja payments.",
       impact: "Empowered car owners to seamlessly monetize idle vehicles and gave renters a reliable, mobile-first marketplace with instant booking and secure M-Pesa checkout."
     }
   },
   {
     id: 2,
-    title: "Project Jarvis (Drudge)",
+    title: "Drudge (Jarvis)",
     tagline: "Privacy-First Voice-Enabled Personal AI Assistant",
     description:
       "A privacy-first, voice-enabled personal AI assistant powered by LiveKit WebRTC transport, local Ollama LLMs, Whisper speech-to-text, and Piper text-to-speech services.",
