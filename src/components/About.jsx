@@ -25,8 +25,8 @@ export default function About() {
               Focused on delivering reliable, secure solutions that support business goals.
             </p>
             <p>
-              My expertise spans web development, system architecture, networking, DevOps, cloud infrastructure, UI/UX,
-              cybersecurity, and software development. Full-cycle maestro driving ideas from inception to delivery,
+              My expertise spans Web Development, System Design, Networking, DevOps, Cloud Infrastructure, UI/UX, Software Testing, and
+              Cybersecurity. Full-cycle maestro driving ideas from inception to delivery,
               ensuring projects are on time and on budget.
             </p>
             <p>
@@ -54,12 +54,9 @@ export default function About() {
               <pre><code>{`const engineer = {
   name: "Stanslaus",
   role: "Software Engineer",
-  stack: ["React", "Node.js", "JavaScript", "AWS"],
-  passion: "Building performant
-    & scalable systems",
-  motto: "Clean code, 
-    strong solutions"
-};`}</code></pre>
+  stack: ["React", "JavaScript", "Node.js", "Python", "Docker", "Kubernetes", "AWS"],
+  passion: "Building performant & scalable systems",
+  motto: "Efficient, reliable, and secure code, always."};`}</code></pre>
             </div>
           </div>
         </div>
