@@ -41,7 +41,7 @@ export default function Contact() {
         <div className="contact-links">
           {[
             { label: "GitHub", href: "https://github.com/stanslausmuuo-spec" },
-            { label: "LinkedIn", href: "https://www.linkedin.com/in/stanslaus-muuo-119218383" },
+            { label: "LinkedIn", href: "https://www.linkedin.com/in/stanslaus" },
             { label: "Discord", href: "https://discord.com/users/1543229483778048020" },
             { label: "WhatsApp", href: "https://wa.me/254741405165" },
           ].map((l) => (

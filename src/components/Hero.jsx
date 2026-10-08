@@ -96,7 +96,7 @@ export default function Hero() {
         >
           {[
             { label: "GitHub", href: "https://github.com/stanslausmuuo-spec", icon: ICONS.github },
-            { label: "LinkedIn", href: "https://www.linkedin.com/in/stanslaus-muuo-119218383", icon: ICONS.linkedin },
+            { label: "LinkedIn", href: "https://www.linkedin.com/in/stanslaus", icon: ICONS.linkedin },
             { label: "Discord", href: "https://discord.com/users/1543229483778048020", icon: ICONS.discord },
             { label: "WhatsApp", href: "https://wa.me/254741405165", icon: ICONS.whatsapp },
           ].map((s) => (
