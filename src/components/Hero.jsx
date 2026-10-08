@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useScrollReveal, revealVariants } from "../hooks/useScrollReveal";
 import { ICONS } from "../data/icons";
 
-const roles = ["Software Engineer", "Full Stack Web Developer", "System Designer", "DevOps Specialist", "Cloud Practitioner", "UI/UX Specialist"];
+const roles = ["Software Developer", "Full Stack Web Developer", "System Designer", "DevOps Specialist", "Cloud Practitioner", "UI/UX Specialist"];
 
 function useRoleCycle(roles, interval = 3000) {
   const [index, setIndex] = useState(0);
