@@ -40,8 +40,8 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.7 }}
         >
-          Hi, I&apos;m
-          <span className="gradient-text"> Stanslaus</span>
+          Software Engineer &amp;
+          <span className="gradient-text"> Web Developer</span>
         </motion.h1>
 
         <div className="hero-subtitle-wrap" style={{ position: "relative", minHeight: "2.2em", marginBottom: "1.25rem" }}>
@@ -66,7 +66,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.7 }}
         >
-          Software Engineer with a knack for building and delivering top-notch solutions; focused on shipping real solutions that work.
+          Hi, I'm Stanslaus; Software Engineer with a knack for building and delivering top-notch solutions, focused on shipping real solutions that work.
           <br /><br />
           Hit me up for efficient, reliable, secure, and innovative software solutions.
         </motion.p>
