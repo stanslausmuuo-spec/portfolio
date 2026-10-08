@@ -40,8 +40,8 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.7 }}
         >
-          Software Engineer &amp;
-          <span className="gradient-text"> Web Developer</span>
+          Software
+          <span className="gradient-text"> Engineer</span>
         </motion.h1>
 
         <div className="hero-subtitle-wrap" style={{ position: "relative", minHeight: "2.2em", marginBottom: "1.25rem" }}>
