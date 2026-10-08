@@ -66,7 +66,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.7 }}
         >
-          Hi, I'm Stanslaus; Software Engineer with a knack for building and delivering top-notch solutions, focused on shipping real solutions that work.
+          Hi, I'm Stanslaus; Software Engineer focused on shipping real solutions that work and support business goals.
           <br /><br />
           Hit me up for efficient, reliable, secure, and innovative software solutions.
         </motion.p>

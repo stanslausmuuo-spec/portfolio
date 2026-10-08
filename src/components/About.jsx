@@ -21,7 +21,7 @@ export default function About() {
         <div className="about-grid">
           <div className="about-text">
             <p>
-              Software Engineer with expertise in crafting top-notch, responsive websites that prioritize user experience.
+              Software Engineer with a knack & expertise in crafting optimal, fast responsive websites that prioritize user experience.
               Focused on delivering reliable, secure solutions that support business goals.
             </p>
             <p>
